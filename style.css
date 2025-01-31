@@ -1,4 +1,37 @@
+body {
+    background-color: #4c5e91;
+    padding: 50px;
+    color: aliceblue;
+}
 
-.container {
-    padding: 15px;
+.container-info {
+    padding: 10px;
+}
+
+.container-password {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    color: #301860;
+}
+
+.container-password input[type="number"] {
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: 1px solid #301860;
+    margin: 10px;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #604878;
+}
+
+#senha-gerada {
+    margin-top: 15px;
 }
